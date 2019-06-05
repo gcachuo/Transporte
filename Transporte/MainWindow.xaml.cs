@@ -1,4 +1,6 @@
-﻿namespace Transporte
+﻿using System.Windows;
+
+namespace Transporte
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -8,6 +10,11 @@
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Message");
         }
     }
 }
